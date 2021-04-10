@@ -1,8 +1,6 @@
 body{
   background: #1B1B1B;
   color: #fff;
-  position: relative;
-  margin-top: 100px;
 }
 
 h2{
@@ -11,7 +9,6 @@ h2{
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -23,36 +20,37 @@ h1{
   font-size: 72px;
   line-height: 84px;
   letter-spacing: 0.1em;
-  text-align: center;
+  
 }
 
 h3{
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 30px;
+  font-weight: 400;
+  
+}
+.hero{
+  background-color: #212121;
   text-align: center;
+  padding: 160px 20px;
 }
 
-.first-button{
-  display: flex;
-  justify-content: center;
-}
 
 .getstarted-link{
-  display: flex;
-  justify-content: center;
-  padding: 18px 30px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #272142;
-  width: 200px;
   background: #FFFFFF;
   border-radius: 50px;
+  color: #212121;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 14px;
+  padding: 18px 30px;
 }
 
+a{
+  color: #fff;
+  text-decoration: none;
+}
 
   
