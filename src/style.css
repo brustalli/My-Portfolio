@@ -53,11 +53,14 @@ a{
   text-decoration: none;
 }
 
-  
 #img-1{
-  width: 100%;
+  display: block;
+  margin: auto 0;
 }
 
 #img-2{
-  width: 100%;
+  display: block;
+  margin: auto 0;
 }
+  
+
