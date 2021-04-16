@@ -62,5 +62,17 @@ a{
   display: block;
   margin: auto 0;
 }
-  
 
+p.title{
+  color: #F65282;
+}
+
+li{
+  list-style: none;
+}
+
+i.fas{
+  width: 5%;
+  color: #F65282;
+}
+  
