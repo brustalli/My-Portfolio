@@ -1,7 +1,7 @@
 body{
   background: #1B1B1B;
   color: #fff;
-  padding: 100px 20px;
+  margin: 100px 20px;
 }
 
 h2.hero1{
@@ -37,7 +37,7 @@ h3.hero3{
 }
 
 
-.getstarted-link{
+.button{
   background: #FFFFFF;
   border-radius: 50px;
   color: #212121;
@@ -46,11 +46,6 @@ h3.hero3{
   font-weight: normal;
   font-size: 14px;
   padding: 18px 30px;
-}
-
-a{
-  color: #fff;
-  text-decoration: none;
 }
 
 #img-1{
@@ -63,7 +58,16 @@ a{
   margin: auto 0;
 }
 
+.profile-img{
+  text-align: center;
+}
+
 p.title{
+  color: #F65282;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+p.title-work-info{
   color: #F65282;
   text-transform: uppercase;
   margin-top: 40px;
@@ -74,18 +78,28 @@ p.title{
   text-align: right;
 }
 
+.contactme{
+  background-color: #fff;
+  color: #1B1B1B;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 50px;
+ 
+}
 
 li{
   list-style: none;
+  margin-left: -30px;
 }
 
 i.fas{
-  width: 5%;
-  color: #F65282;
+  font-size: 8px;
+  margin-right: 10px;
+  color: #282323;
 }
 
 i.fab{
-  margin-top: 2rem;
+  margin: 2rem 0;
   font-size: 1.2rem;
 }
 
@@ -94,7 +108,7 @@ h1.name{
   font-style: normal;
   font-weight: bold;
   font-size: 2.5rem;
-  line-height: 1.rem;
+  line-height: 0.5rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 
@@ -102,37 +116,57 @@ h1.name{
 
 h2.about{
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 2rem;
   font-weight: 400;
 }
 
 img.quarentine-posters{
-  width: 30%;
+  width: 40%;
+  margin: 0 2rem;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
 }
 
 a:hover{
   color: #F65282;
 }
 
-@media only screen and (max-width: 860px) {
+footer{
+  background-color: #282323;
+  ;
+}
+
+@media only screen and (max-width: 1020px) {
   i.fab{
    text-align: center;
   }
 }
 
-.profile-img{
-  text-align: center;
-}
-
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1020px) {
   .profile-img,
   .about-text {
    width: 100%;
    text-align: center;
   }
 }
+@media only screen and (max-width: 1020px) {
+  li, 
+  .title-work-info{
+    display: inline;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
 
+@media only screen and (max-width: 1020px) {
+i.fas{
+display: none;
+}
+}
 
 
 
