@@ -1,7 +1,7 @@
 body{
   background: #1B1B1B;
   color: #fff;
-  margin: 100px 20px;
+  margin: 100px 20px 0 20px;
 }
 
 h2.hero1{
@@ -21,7 +21,6 @@ h1.hero2{
   font-size: 72px;
   line-height: 84px;
   letter-spacing: 0.1em;
-  
 }
 
 h3.hero3{
@@ -46,13 +45,19 @@ h3.hero3{
   font-weight: normal;
   font-size: 14px;
   padding: 18px 30px;
+  margin: 30px;
 }
 
-#img-1{
-  display: block;
-  margin: auto 0;
+.button-link{
+  padding: 50px;
 }
 
+.contact-me-icons{
+  padding: 60px 0;
+
+}
+
+#img-1,
 #img-2{
   display: block;
   margin: auto 0;
@@ -70,7 +75,6 @@ p.title{
 p.title-work-info{
   color: #F65282;
   text-transform: uppercase;
-  margin-top: 40px;
 }
 
 .get-in-touch {
@@ -84,7 +88,6 @@ p.title-work-info{
   text-transform: uppercase;
   padding: 10px;
   border-radius: 50px;
- 
 }
 
 li{
@@ -99,8 +102,8 @@ i.fas{
 }
 
 i.fab{
-  margin: 2rem 0;
   font-size: 1.2rem;
+  margin: 20px;
 }
 
 h1.name{
@@ -108,7 +111,7 @@ h1.name{
   font-style: normal;
   font-weight: bold;
   font-size: 2.5rem;
-  line-height: 0.5rem;
+  line-height: 2rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 
@@ -117,13 +120,17 @@ h1.name{
 h2.about{
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   font-weight: 400;
 }
 
+
 img.quarentine-posters{
-  width: 40%;
-  margin: 0 2rem;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin: auto 0;
 }
 
 a{
@@ -137,7 +144,6 @@ a:hover{
 
 footer{
   background-color: #282323;
-  ;
 }
 
 @media only screen and (max-width: 1020px) {
@@ -153,20 +159,9 @@ footer{
    text-align: center;
   }
 }
-@media only screen and (max-width: 1020px) {
-  li, 
-  .title-work-info{
-    display: inline;
-    margin-left: 10px;
-    text-align: center;
-  }
-}
 
-@media only screen and (max-width: 1020px) {
-i.fas{
-display: none;
-}
-}
+
+
 
 
 
