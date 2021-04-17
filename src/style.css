@@ -78,6 +78,11 @@ i.fas{
   color: #F65282;
 }
 
+i.fab{
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
 h1.name{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -96,17 +101,24 @@ h2.about{
   font-weight: 400;
 }
 
+img.quarentine-posters{
+  width: 30%;
+}
+
 a:hover{
   color: #F65282;
 }
 
 @media only screen and (max-width: 860px) {
   i.fab{
-   font-size: 1.5rem;
    text-align: center;
   }
 }
-  
+
+.profile-img{
+  text-align: center;
+}
+
 @media only screen and (max-width: 860px) {
   .profile-img,
   .about-text {
@@ -114,4 +126,8 @@ a:hover{
    text-align: center;
   }
 }
+
+
+
+
 
