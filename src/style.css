@@ -69,6 +69,12 @@ p.title{
   margin-top: 40px;
 }
 
+.get-in-touch {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+
 li{
   list-style: none;
 }
