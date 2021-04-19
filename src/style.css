@@ -45,16 +45,11 @@ h3.hero3{
   font-weight: normal;
   font-size: 14px;
   padding: 18px 30px;
-  margin: 30px;
+  margin: 0 auto;
 }
 
 .button-link{
   padding: 50px;
-}
-
-.contact-me-icons{
-  padding: 60px 0;
-
 }
 
 #img-1,
@@ -70,7 +65,6 @@ h3.hero3{
 p.title{
   color: #F65282;
   text-transform: uppercase;
-  margin-top: 40px;
 }
 p.title-work-info{
   color: #F65282;
@@ -126,11 +120,8 @@ h2.about{
 
 
 img.quarentine-posters{
-  width: 20%;
-  align-items: center;
-  justify-content: center;
-  display: inline-block;
-  margin: auto 0;
+  width: 25%;
+  margin: 0 auto;
 }
 
 a{
