@@ -1,7 +1,29 @@
 body{
   background: #1B1B1B;
   color: #fff;
-  margin: 100px 20px 0 20px;
+  margin: 0 20px;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav ul {
+ padding: 0;
+ margin: 0;
+}
+
+nav li {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 35px;
+  margin-left: 20px;
+}
+
+nav li.active a {
+  color:#413e3e;
 }
 
 h2.hero1{
@@ -16,10 +38,10 @@ h2.hero1{
 
 
 h1.intro{
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 72px;
+font-size: 3rem;
 line-height: 84px;
 text-align: center;
 letter-spacing: 0.1em;
@@ -35,11 +57,11 @@ h3.hero3{
 .hero{
   background-color: #212121;
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .get-in-touch{
-  text-align: center;
+  text-align: right;
 }
 
 p.title{
@@ -88,6 +110,7 @@ h2.contact-info{
   color: #212121;
   text-transform: uppercase;
   font-family: 'Montserrat';
+  text-align: center;
   font-weight: normal;
   font-size: 14px;
   padding: 18px 30px;
@@ -96,6 +119,16 @@ h2.contact-info{
 
 .button-link{
   padding: 50px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+a:hover{
+  color: #F65282;
 }
 
 #img-1,
@@ -113,7 +146,7 @@ img.quarentine-posters{
   margin: 0 auto;
 }
 
-li{
+.work-info-section li{
   list-style: none;
   margin-left: -30px;
 }
@@ -156,32 +189,38 @@ i.fab{
 }
 
 
-a{
-  color: #fff;
-  text-decoration: none;
-}
 
-a:hover{
-  color: #F65282;
-}
 
 footer{
   background-color: #282323;
 }
 
-@media only screen and (max-width: 1020px) {
-  i.fab{
-   text-align: center;
-  }
-}
+
 
 @media only screen and (max-width: 1020px) {
   .profile-img,
-  .about-text {
+  .about-text,
+  .get-in-touch{
    width: 100%;
    text-align: center;
   }
 }
+
+@media only screen and (max-width: 1020px){
+  i.fab{
+    text-align: center;
+  }
+  
+}
+
+@media only screen and (max-width: 1020px){
+.button-link{
+padding: 10px;
+font-size: 10px;
+}
+}
+
+  
 
 
 
