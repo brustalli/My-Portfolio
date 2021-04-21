@@ -14,13 +14,16 @@ h2.hero1{
   text-transform: uppercase;
 }
 
-h1.hero2{
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 72px;
-  line-height: 84px;
-  letter-spacing: 0.1em;
+
+h1.intro{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
 }
 
 h3.hero3{
@@ -33,6 +36,49 @@ h3.hero3{
   background-color: #212121;
   text-align: center;
   padding: 160px 20px;
+}
+
+.get-in-touch{
+  text-align: center;
+}
+
+p.title{
+  color: #F65282;
+  text-transform: uppercase;
+}
+p.title-work-info{
+  color: #F65282;
+  text-transform: uppercase;
+}
+
+p.contact-info-line{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+div.contact-page {
+  margin-top: 2rem;
+  text-align: center
+}
+
+h2.contact-info{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #F65282;
+}
+
+.contactme{
+  background-color: #fff;
+  color: #1B1B1B;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 
@@ -62,26 +108,9 @@ h3.hero3{
   text-align: center;
 }
 
-p.title{
-  color: #F65282;
-  text-transform: uppercase;
-}
-p.title-work-info{
-  color: #F65282;
-  text-transform: uppercase;
-}
-
-.get-in-touch {
-  margin-top: 2rem;
-  text-align: right;
-}
-
-.contactme{
-  background-color: #fff;
-  color: #1B1B1B;
-  text-transform: uppercase;
-  padding: 10px;
-  border-radius: 50px;
+img.quarentine-posters{
+  width: 25%;
+  margin: 0 auto;
 }
 
 li{
@@ -89,18 +118,7 @@ li{
   margin-left: -30px;
 }
 
-i.fas{
-  font-size: 8px;
-  margin-right: 10px;
-  color: #282323;
-}
-
-i.fab{
-  font-size: 1.2rem;
-  margin: 20px;
-}
-
-h1.name{
+.name{
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -108,7 +126,6 @@ h1.name{
   line-height: 2rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-
 }
 
 h2.about{
@@ -117,12 +134,27 @@ h2.about{
   line-height: 1.5rem;
   font-weight: 400;
 }
-
-
-img.quarentine-posters{
-  width: 25%;
-  margin: 0 auto;
+i.fas{
+  font-size: 8px;
+  margin-right: 10px;
+  color: #282323;
 }
+
+i.fas.fa-mobile-alt{
+  color: #fff;
+  font-size: 1rem;
+}
+
+i.fas.fa-map-marker-alt{
+  color: #fff;
+  font-size: 1rem;
+}
+
+i.fab{
+  font-size: 1.2rem;
+  margin: 20px;
+}
+
 
 a{
   color: #fff;
