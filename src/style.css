@@ -196,10 +196,19 @@ footer{
   text-align: center;
  
 }
+.open-source {
+  font-size: 0.5rem;
+  text-align: right;
+  color: #636363;
+}
 
 @media only screen and (max-width: 600px) {
   nav li{
     font-size: 0.8rem;
+    
+  }
+  .open-source{
+    text-align: center;
   }
 }
 
